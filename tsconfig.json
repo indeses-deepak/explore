@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",  // Outputs compiled files to the dist folder
+    "rootDir": "./src"   // Specifies where the source files are located
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
