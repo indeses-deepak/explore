@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "CommonJS",
+    "target": "ES6",
+    "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",  // Outputs compiled files to the dist folder
-    "rootDir": "./src"   // Specifies where the source files are located
+    "outDir": "./dist",  // Compiled JS files will go into the "dist" folder
+    "rootDir": "./src",  // Your source code is in the "src" folder
+    "resolveJsonModule": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
